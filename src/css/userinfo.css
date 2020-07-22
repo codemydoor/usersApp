@@ -3,3 +3,22 @@
   bottom: 12rem;
   left: 18rem;
 }
+.buttons {
+  cursor: pointer;
+  width: 8rem;
+  height: 3rem;
+  border: none;
+  font-size: 0.8rem;
+  color: white;
+  font-weight: 500;
+}
+#removeUser {
+  background-color: crimson;
+}
+#editUser {
+  background-color: blue;
+}
+#link {
+  color: white;
+  text-decoration: none;
+}

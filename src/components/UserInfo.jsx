@@ -11,8 +11,14 @@ const UserInfo = ({ name, email, gen, id, removeUser }) => {
       <h3>Name:{name}</h3>
       <p>Email:{email}</p>
       <h3>Gen{gen}</h3>
-      <button onClick={handleClick}>Remove User</button>
-      <Link to={`/edit/${id}`}>Edit User</Link>
+      <button className="buttons" id="removeUser" onClick={handleClick}>
+        Remove User
+      </button>
+      <button className="buttons" id="editUser">
+        <Link id="link" to={`/edit/${id}`}>
+          Edit User
+        </Link>
+      </button>
     </div>
   );
 };

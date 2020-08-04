@@ -22,3 +22,10 @@
   color: white;
   text-decoration: none;
 }
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .userInfo {
+    position: relative;
+    top: 6rem;
+    left: 1rem;
+  }
+}

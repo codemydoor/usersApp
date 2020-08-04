@@ -17,3 +17,10 @@ input {
   background-color: rgb(4, 122, 34);
   color: aliceblue;
 }
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  form {
+    position: relative;
+    left: 1.4rem;
+    top: 2rem;
+  }
+}

@@ -2,12 +2,12 @@ import { v4 as uuid } from "uuid";
 
 const initialState = {
   users: [
-    {
-      id: " 1",
-      name: " Dennis Selorm",
-      email: " dennis@gmail.com",
-      gen: 3,
-    },
+    // {
+    //   id: " ",
+    //   name: "",
+    //   email: "",
+    //   gen: "",
+    // },
   ],
 };
 
@@ -37,6 +37,8 @@ const userReducer = (state = initialState, action) => {
         }
       });
       return { ...state, users: updatedUserInfo };
+    case "GET_USERS":
+      return { users: action.payload };
     default:
       return state;
   }

@@ -4,7 +4,6 @@ import { connect } from "react-redux";
 import { addUser, deleteUser, getAllUsers } from "./store/usersActions";
 import UsersForm from "./components/UsersForm";
 import UserInfo from "./components/UserInfo";
-// import EditForm from './components/EditForm';
 export class App extends Component {
   addNewUser = (newUser) => {
     this.props.addUser(newUser);

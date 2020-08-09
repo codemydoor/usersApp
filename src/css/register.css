@@ -31,6 +31,9 @@
   position: relative;
   left: 4rem;
   margin-bottom: 0.5rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
 }
 #googleButtonsx {
   height: 2.7rem;
@@ -41,6 +44,9 @@
   font-weight: bold;
   position: relative;
   left: 4rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .registration_Form {
@@ -48,10 +54,10 @@
     left: -3rem;
   }
   .header {
-    font-size: 1rem;
+    font-size: 2rem;
     font-weight: bolder;
     position: relative;
-    left: 10rem;
+    left: 2rem;
   }
   #back {
     position: relative;
@@ -79,6 +85,9 @@
     margin-bottom: 0.5rem;
     position: relative;
     right: 2rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
   }
   #googleButtonsx {
     width: 21.9rem;
@@ -89,5 +98,8 @@
     font-weight: bold;
     position: relative;
     right: 2rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
   }
 }

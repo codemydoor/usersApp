@@ -42,7 +42,6 @@ class EditForm extends Component {
     return (
       <form onSubmit={this.handleSubmit} className="editForm">
         <div className="form-input">
-          <label>Name</label>
           <input
             type="text"
             name="name"
@@ -51,7 +50,6 @@ class EditForm extends Component {
           />
         </div>
         <div className="form-input">
-          <label>Email</label>
           <input
             type="email"
             name="email"
@@ -60,15 +58,17 @@ class EditForm extends Component {
           />
         </div>
         <div className="form-input">
-          <label>Gen</label>
           <input
             type="number"
             name="gen"
+            placeholder="gen"
             value={this.state.gen}
             onChange={this.handleChange}
           />
         </div>
-        <button type="submit">Update User</button>
+        <button type="submit" className="submitButton">
+          Update User
+        </button>
       </form>
     );
   }
@@ -76,7 +76,7 @@ class EditForm extends Component {
 
 const mapStateToProps = (state, ownProps) => ({
   user: state.usersState.users.find(
-    user => user.id === ownProps.match.params.id
+    (user) => user.id === ownProps.match.params.id
   ),
 });
 

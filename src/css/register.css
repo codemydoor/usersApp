@@ -1,4 +1,76 @@
 .registration_Form {
   position: relative;
-  left: 30rem;
+  left: 5rem;
+}
+.header {
+  color: black;
+  text-align: center;
+  padding-top: 4rem;
+}
+.backgroundss {
+  width: 40rem;
+  height: 30rem;
+  background-color: silver;
+  position: relative;
+  left: 26rem;
+  top: 7rem;
+}
+
+#inputss {
+  position: relative;
+  left: 4rem;
+  margin-bottom: 2rem;
+}
+#signInButton {
+  height: 2.7rem;
+  width: 21.3rem;
+  background-color: darkblue;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  position: relative;
+  left: 4rem;
+  margin-bottom: 0.5rem;
+}
+#googleButton {
+  height: 2.7rem;
+  width: 21.3rem;
+  background-color: crimson;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  position: relative;
+  left: 4rem;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .registration_Form {
+    position: relative;
+    left: 5rem;
+  }
+  #inputss {
+    position: relative;
+    left: 4rem;
+    margin-bottom: 2rem;
+  }
+  #signInButton {
+    height: 2.7rem;
+    width: 21.3rem;
+    background-color: darkblue;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    position: relative;
+    left: 4rem;
+    margin-bottom: 0.5rem;
+  }
+  #googleButton {
+    height: 2.7rem;
+    width: 21.3rem;
+    background-color: crimson;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    position: relative;
+    left: 4rem;
+  }
 }

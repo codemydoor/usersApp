@@ -13,25 +13,29 @@ function Login(props) {
     props.logInWithEmail(email, password);
   };
   return (
-    <div>
-      <h1>Log In</h1>
-      <form className="login_Form" onSubmit={submitForm}>
-        <div>
-          <label>Email</label>
-          <input name="email" placeholder="login" type="email" />
-        </div>
-        <div>
-          <label>password</label>
+    <div className="backgrounds">
+      <h1 className="headers">Log In</h1>
+      <form className="login_Formsss" onSubmit={submitForm}>
+        <div className="inputFields">
+          <input name="email" placeholder="login" type="email" id="inputs" />
           <input
             name="password"
             placeholder="password"
             type="password"
             autoComplete="true"
+            id="inputs"
           />
         </div>
-        <button type="submit">Login</button>
+        <button type="submit" id="signInButtons">
+          Login
+        </button>
+        <br />
 
-        <button type="submit" onClick={props.loginWithGoogle}>
+        <button
+          type="submit"
+          id="googleButtons"
+          onClick={props.loginWithGoogle}
+        >
           Login WIth Google
         </button>
       </form>

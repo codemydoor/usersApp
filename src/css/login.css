@@ -44,7 +44,7 @@
   .backgrounds {
     width: 10rem;
     height: 10rem;
-    background-color: silver;
+    background-color: whitesmoke;
     position: relative;
     left: 0.5rem;
     top: 7rem;
@@ -59,22 +59,22 @@
     height: 3rem;
   }
   #signInButtons {
-    width: 24.5rem;
-    height: 3rem;
+    width: 24.9rem;
+    height: 4rem;
     background-color: darkblue;
     color: white;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: bold;
     position: relative;
     right: 0.1rem;
     margin-bottom: 0.5rem;
   }
   #googleButtons {
-    width: 24.5rem;
-    height: 3rem;
+    width: 24.9rem;
+    height: 4rem;
     background-color: crimson;
     color: white;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: bold;
     position: relative;
     right: 0.1rem;

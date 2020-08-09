@@ -43,6 +43,7 @@ class EditForm extends Component {
       <form onSubmit={this.handleSubmit} className="editForm">
         <div className="form-input">
           <input
+            className="editInput"
             type="text"
             name="name"
             value={this.state.name}
@@ -51,6 +52,7 @@ class EditForm extends Component {
         </div>
         <div className="form-input">
           <input
+            className="editInput"
             type="email"
             name="email"
             value={this.state.email}
@@ -59,6 +61,7 @@ class EditForm extends Component {
         </div>
         <div className="form-input">
           <input
+            className="editInput"
             type="number"
             name="gen"
             placeholder="gen"

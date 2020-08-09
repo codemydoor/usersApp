@@ -29,11 +29,15 @@ function Register(props) {
             id="inputss"
           />
         </div>
-        <button type="submit" id="signInButton">
+        <button type="submit" id="signInButtonss">
           Submit
         </button>{" "}
         <br />
-        <button type="submit" onClick={props.loginWithGoogle} id="googleButton">
+        <button
+          type="submit"
+          onClick={props.loginWithGoogle}
+          id="googleButtonss"
+        >
           Login WIth Google
         </button>
       </form>

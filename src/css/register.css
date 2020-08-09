@@ -43,32 +43,47 @@
   left: 4rem;
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .header {
+    font-size: 5rem;
+    font-weight: bolder;
+    position: relative;
+    right: 2rem;
+  }
   .registration_Form {
     position: relative;
+    left: -8rem;
+  }
+  .backgroundss {
+    width: 52rem;
+    height: 40rem;
+    background-color: whitesmoke;
+    position: relative;
     left: 5rem;
+    top: 20rem;
   }
   #inputss {
-    position: relative;
-    left: 4rem;
+    width: 53.5rem;
+    height: 7rem;
     margin-bottom: 2rem;
+    font-size: 3rem;
   }
-  #signInButton {
-    height: 2.7rem;
-    width: 21.3rem;
+  #signInButtonss {
+    width: 54.8rem;
+    height: 7rem;
     background-color: darkblue;
     color: white;
-    font-size: 1rem;
+    font-size: 3rem;
     font-weight: bold;
+    margin-bottom: 0.5rem;
     position: relative;
     left: 4rem;
-    margin-bottom: 0.5rem;
   }
-  #googleButton {
-    height: 2.7rem;
-    width: 21.3rem;
+  #googleButtonss {
+    width: 54.8rem;
+    height: 7rem;
     background-color: crimson;
     color: white;
-    font-size: 1rem;
+    font-size: 3rem;
     font-weight: bold;
     position: relative;
     left: 4rem;

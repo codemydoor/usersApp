@@ -19,7 +19,9 @@ export class App extends Component {
   render() {
     return (
       <div className="App">
-        <button onClick={this.props.logout}>Logout</button>
+        <button className="logoutButton" onClick={this.props.logout}>
+          Logout
+        </button>
         <UsersForm addUser={this.addNewUser} />
 
         <div className="App__User-info"></div>

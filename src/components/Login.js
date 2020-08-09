@@ -1,6 +1,7 @@
 import React from "react";
 import "../css/login.css";
 import { connect } from "react-redux";
+import { Link } from "react-router-dom";
 import { logInWithEmail, loginWithGoogle } from "../store/authActions";
 
 function Login(props) {
@@ -37,6 +38,15 @@ function Login(props) {
           onClick={props.loginWithGoogle}
         >
           Login WIth Google
+        </button>
+        <br />
+        <button id="register">
+          <Link
+            style={{ color: "white", textDecoration: "none" }}
+            to="/register"
+          >
+            Register
+          </Link>
         </button>
       </form>
     </div>

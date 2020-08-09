@@ -22,7 +22,7 @@
 #signInButtons {
   height: 2.7rem;
   width: 21.3rem;
-  background-color: darkblue;
+  background-color: green;
   color: white;
   font-size: 1rem;
   font-weight: bold;
@@ -39,6 +39,17 @@
   font-weight: bold;
   position: relative;
   right: 0.1rem;
+}
+#register {
+  height: 2.7rem;
+  width: 21.3rem;
+  background-color: darkblue;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  position: relative;
+  right: 0.1rem;
+  margin-bottom: 0.5rem;
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .backgrounds {

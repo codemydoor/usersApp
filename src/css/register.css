@@ -62,14 +62,14 @@
     top: 20rem;
   }
   #inputss {
-    width: 53.5rem;
-    height: 7rem;
+    width: 20.5rem;
+    height: 3rem;
     margin-bottom: 2rem;
     font-size: 3rem;
   }
   #signInButtonss {
-    width: 54.8rem;
-    height: 7rem;
+    width: 20.5rem;
+    height: 3rem;
     background-color: darkblue;
     color: white;
     font-size: 3rem;
@@ -79,8 +79,8 @@
     left: 4rem;
   }
   #googleButtonss {
-    width: 54.8rem;
-    height: 7rem;
+    width: 20.5rem;
+    height: 3rem;
     background-color: crimson;
     color: white;
     font-size: 3rem;

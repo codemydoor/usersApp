@@ -59,7 +59,7 @@
     height: 3rem;
   }
   #signInButtons {
-    width: 21.5rem;
+    width: 22rem;
     height: 4rem;
     background-color: darkblue;
     color: white;
@@ -70,7 +70,7 @@
     margin-bottom: 0.5rem;
   }
   #googleButtons {
-    width: 21.5rem;
+    width: 22rem;
     height: 4rem;
     background-color: crimson;
     color: white;

@@ -19,8 +19,7 @@
   font-size: 1.7rem;
   font-weight: bolder;
   position: relative;
-  left: 1rem;
-  top: 20rem;
+  left: 18rem;
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .logoutButton {

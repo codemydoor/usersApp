@@ -2,6 +2,7 @@ import "./App.css";
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import { addUser, deleteUser, getAllUsers } from "./store/usersActions";
+import { logout } from "./store/authActions";
 import UsersForm from "./components/UsersForm";
 import UserInfo from "./components/UserInfo";
 export class App extends Component {
@@ -18,7 +19,9 @@ export class App extends Component {
   render() {
     return (
       <div className="App">
+        <button onClick={this.props.logout}>Logout</button>
         <UsersForm addUser={this.addNewUser} />
+
         <div className="App__User-info"></div>
         {this.props.users.map((user, index) => {
           return (
@@ -38,13 +41,14 @@ export class App extends Component {
 }
 
 const mapStateToProps = (state) => ({
-  users: state.users,
+  users: state.usersState.users,
 });
 
 const mapDispatchToProps = {
   addUser: addUser,
   deleteUser: deleteUser,
   getAllUsers: getAllUsers,
+  logout: logout,
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(App);

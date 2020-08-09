@@ -3,10 +3,7 @@ export const addUser = (user) => {
   return (dispatch, state, { getFirestore }) => {
     getFirestore()
       .collection("users")
-      .add({
-        ...user,
-        timestamp: getFirestore().FieldValue.serverTimestamp(),
-      })
+      .add(user)
       .then((doc) => {});
   };
 };
@@ -17,12 +14,14 @@ export const deleteUser = (user_id) => {
   };
 };
 
-export const editUser = (user_id, updated_Info) => {
+export const editUser = (user_id, updated_info) => {
   return (dispatch, state, { getFirestore }) => {
-    getFirestore
+    getFirestore()
       .collection("users")
       .doc(user_id)
-      .set(updated_Info.then(() => {}).catch((err) => {}));
+      .set(updated_info)
+      .then(() => {})
+      .catch((err) => {});
   };
   // {
   //   type: "EDIT_USER",
@@ -36,7 +35,7 @@ export const getAllUsers = () => {
   return (dispatch, state, { getFirestore }) => {
     getFirestore()
       .collection("users")
-      .orderBy("timestamp", "desc")
+      .orderBy("name", "asc") //this orders data in a particular orderi.
       .onSnapshot((snapshot) => {
         let users = [];
         snapshot.forEach((doc) => {

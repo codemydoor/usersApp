@@ -74,12 +74,11 @@ class EditForm extends Component {
   }
 }
 
-const mapStateToProps = (state, ownProps) => {
-  console.log(state.users.find((user) => user.id === ownProps.match.params.id));
-  return {
-    user: state.users.find((user) => user.id === ownProps.match.params.id),
-  };
-};
+const mapStateToProps = (state, ownProps) => ({
+  user: state.usersState.users.find(
+    user => user.id === ownProps.match.params.id
+  ),
+});
 
 const mapDispatchToProps = {
   editUser: editUser,

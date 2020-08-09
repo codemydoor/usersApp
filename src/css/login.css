@@ -72,7 +72,7 @@
   #signInButtons {
     width: 22rem;
     height: 4rem;
-    background-color: darkblue;
+    background-color: green;
     color: white;
     font-size: 1.2rem;
     font-weight: bold;
@@ -84,6 +84,16 @@
     width: 22rem;
     height: 4rem;
     background-color: crimson;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    position: relative;
+    right: 0.1rem;
+  }
+  #register {
+    width: 22rem;
+    height: 4rem;
+    background-color: darkblue;
     color: white;
     font-size: 1.2rem;
     font-weight: bold;

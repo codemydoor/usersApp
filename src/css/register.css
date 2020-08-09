@@ -21,7 +21,7 @@
   left: 4rem;
   margin-bottom: 2rem;
 }
-#signInButtonss {
+#signInButtonsx {
   height: 2.7rem;
   width: 21.3rem;
   background-color: darkblue;
@@ -32,7 +32,7 @@
   left: 4rem;
   margin-bottom: 0.5rem;
 }
-#googleButtonss {
+#googleButtonsx {
   height: 2.7rem;
   width: 21.3rem;
   background-color: crimson;
@@ -44,32 +44,32 @@
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .header {
-    font-size: 5rem;
+    font-size: 1rem;
     font-weight: bolder;
     position: relative;
     right: 2rem;
   }
   .registration_Form {
     position: relative;
-    left: -8rem;
+    left: 1rem;
   }
   .backgroundss {
     width: 52rem;
     height: 40rem;
     background-color: whitesmoke;
     position: relative;
-    left: 5rem;
+    left: 0.9rem;
     top: 20rem;
   }
-  #inputss {
-    width: 20.5rem;
-    height: 3rem;
+  .inputsx {
+    width: 48.5rem;
+    height: 5rem;
     margin-bottom: 2rem;
     font-size: 3rem;
   }
-  #signInButtonss {
-    width: 20.5rem;
-    height: 3rem;
+  .signInButtonsx {
+    width: 40.5rem;
+    height: 5rem;
     background-color: darkblue;
     color: white;
     font-size: 3rem;
@@ -78,14 +78,14 @@
     position: relative;
     left: 4rem;
   }
-  #googleButtonss {
-    width: 20.5rem;
-    height: 3rem;
+  .googleButtonsx {
+    width: 40.5rem;
+    height: 5rem;
     background-color: crimson;
     color: white;
     font-size: 3rem;
     font-weight: bold;
     position: relative;
-    left: 4rem;
+    left: 5rem;
   }
 }

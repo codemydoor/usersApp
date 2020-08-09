@@ -18,7 +18,12 @@ function Register(props) {
 
       <form className="registration_Form" onSubmit={submitForm}>
         <div>
-          <input name="email" placeholder="Email" type="email" id="inputss" />
+          <input
+            name="email"
+            placeholder="Email"
+            type="email"
+            className="inputsx"
+          />
         </div>
         <div>
           <input
@@ -26,17 +31,17 @@ function Register(props) {
             placeholder="password"
             type="password"
             autoComplete="true"
-            id="inputss"
+            className="inputsx"
           />
         </div>
-        <button type="submit" id="signInButtonss">
+        <button type="submit" className="signInButtonsx">
           Submit
         </button>{" "}
         <br />
         <button
           type="submit"
           onClick={props.loginWithGoogle}
-          id="googleButtonss"
+          className="googleButtonsx"
         >
           Login WIth Google
         </button>

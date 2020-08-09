@@ -55,11 +55,11 @@
   }
   #inputs {
     margin-bottom: 2rem;
-    width: 23.5rem;
+    width: 22.5rem;
     height: 3rem;
   }
   #signInButtons {
-    width: 24.9rem;
+    width: 23.9rem;
     height: 4rem;
     background-color: darkblue;
     color: white;
@@ -70,7 +70,7 @@
     margin-bottom: 0.5rem;
   }
   #googleButtons {
-    width: 24.9rem;
+    width: 23.9rem;
     height: 4rem;
     background-color: crimson;
     color: white;

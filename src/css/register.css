@@ -7,7 +7,7 @@
   text-align: center;
   padding-top: 4rem;
 }
-.backgroundss {
+.backgroundsxx {
   width: 40rem;
   height: 30rem;
   background-color: silver;
@@ -16,12 +16,12 @@
   top: 7rem;
 }
 
-#inputss {
+.inputsx {
   position: relative;
   left: 4rem;
   margin-bottom: 2rem;
 }
-#signInButtonsx {
+.signInButtonsx {
   height: 2.7rem;
   width: 21.3rem;
   background-color: darkblue;
@@ -32,7 +32,7 @@
   left: 4rem;
   margin-bottom: 0.5rem;
 }
-#googleButtonsx {
+.googleButtonsx {
   height: 2.7rem;
   width: 21.3rem;
   background-color: crimson;
@@ -47,45 +47,43 @@
     font-size: 1rem;
     font-weight: bolder;
     position: relative;
-    right: 2rem;
+    left: 7rem;
   }
-  .registration_Form {
+  .backgroundsxx {
     position: relative;
-    left: 1rem;
+    height: 0rem;
+    width: 0rem;
+    background-color: none;
+    left: -2rem;
   }
-  .backgroundss {
-    width: 52rem;
-    height: 40rem;
-    background-color: whitesmoke;
-    position: relative;
-    left: 0.9rem;
-    top: 20rem;
-  }
-  .inputsx {
+
+  #inputsx {
     width: 20.5rem;
     height: 3rem;
     margin-bottom: 2rem;
-    font-size: 3rem;
+    font-size: 1.5rem;
+    position: relative;
+    right: 2rem;
   }
-  .signInButtonsx {
-    width: 20.5rem;
+  #signInButtonsx {
+    width: 21.9rem;
     height: 3rem;
     background-color: darkblue;
     color: white;
-    font-size: 3rem;
+    font-size: 1rem;
     font-weight: bold;
     margin-bottom: 0.5rem;
     position: relative;
-    left: 1rem;
+    right: 2rem;
   }
-  .googleButtonsx {
-    width: 20.5rem;
-    height: 3rem;
+  #googleButtonsx {
+    width: 21.9rem;
+    height: 4rem;
     background-color: crimson;
     color: white;
-    font-size: 3rem;
+    font-size: 1rem;
     font-weight: bold;
     position: relative;
-    left: 1rem;
+    right: 2rem;
   }
 }

@@ -13,17 +13,12 @@ function Register(props) {
     props.registerWithEmail(email, password);
   };
   return (
-    <div className="backgroundss">
+    <div className="backgroundsxx">
       <h1 className="header">Register Now</h1>
 
       <form className="registration_Form" onSubmit={submitForm}>
         <div>
-          <input
-            name="email"
-            placeholder="Email"
-            type="email"
-            className="inputsx"
-          />
+          <input name="email" placeholder="Email" type="email" id="inputsx" />
         </div>
         <div>
           <input
@@ -31,17 +26,17 @@ function Register(props) {
             placeholder="password"
             type="password"
             autoComplete="true"
-            className="inputsx"
+            id="inputsx"
           />
         </div>
-        <button type="submit" className="signInButtonsx">
+        <button type="submit" id="signInButtonsx">
           Submit
         </button>{" "}
         <br />
         <button
           type="submit"
           onClick={props.loginWithGoogle}
-          className="googleButtonsx"
+          id="googleButtonsx"
         >
           Login WIth Google
         </button>

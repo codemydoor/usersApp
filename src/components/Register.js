@@ -13,7 +13,7 @@ function Register(props) {
     props.registerWithEmail(email, password);
   };
   return (
-    <div className="backgroundsxx">
+    <div className="backgroundsxx" id="back">
       <h1 className="header">Register Now</h1>
 
       <form className="registration_Form" onSubmit={submitForm}>

@@ -16,12 +16,12 @@
   top: 7rem;
 }
 
-.inputsx {
+#inputsx {
   position: relative;
   left: 4rem;
   margin-bottom: 2rem;
 }
-.signInButtonsx {
+#signInButtonsx {
   height: 2.7rem;
   width: 21.3rem;
   background-color: darkblue;
@@ -32,7 +32,7 @@
   left: 4rem;
   margin-bottom: 0.5rem;
 }
-.googleButtonsx {
+#googleButtonsx {
   height: 2.7rem;
   width: 21.3rem;
   background-color: crimson;
@@ -43,18 +43,22 @@
   left: 4rem;
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .registration_Form {
+    position: relative;
+    left: -3rem;
+  }
   .header {
     font-size: 1rem;
     font-weight: bolder;
     position: relative;
-    left: 7rem;
+    left: 10rem;
   }
-  .backgroundsxx {
+  #back {
     position: relative;
     height: 0rem;
     width: 0rem;
     background-color: none;
-    left: -2rem;
+    left: -0.3rem;
   }
 
   #inputsx {

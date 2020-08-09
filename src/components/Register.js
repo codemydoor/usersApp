@@ -38,7 +38,7 @@ function Register(props) {
           onClick={props.loginWithGoogle}
           id="googleButtonsx"
         >
-          Login WIth Google
+          Register WIth Google
         </button>
       </form>
     </div>

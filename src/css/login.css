@@ -42,7 +42,7 @@
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .backgrounds {
-    width: 10rem;
+    width: 9rem;
     height: 10rem;
     background-color: whitesmoke;
     position: relative;

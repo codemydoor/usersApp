@@ -19,7 +19,7 @@ function ProtectedRoute({ component: Component, auth, ...rest }) {
     <Route
       {...rest}
       render={(props) => {
-        return <Redirect {...props} to={{ pathname: "/login" }} />;
+        return <Redirect {...props} to={{ pathname: "/register" }} />;
       }}
     />
   );
